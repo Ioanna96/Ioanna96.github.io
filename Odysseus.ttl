@@ -1,0 +1,20 @@
+
+@prefix rdf: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix crm: <http://cidoc-crm.org/>.
+@prefix schema: <https://schema.org/>.
+@prefix nos: <https://nos.org/>.
+@prefix owl:<http://www.w3.org/2002/07/owl#>.
+
+
+
+<http://uri.ttl>
+	rdf:type nos:Legendary_character;
+	schema:birthPlace  nos:Ithaca;
+	schema:nationality  nos:Greek;
+	crm:P11_participated_in nos:Trojan_war;
+	crm:P14.1_in_the_role_of nos:King_of_Ithaca;
+	crm:P129_is_subject_of  nos:Odyssey, nos:krater, nos:painting, nos:movie_nostos;
+	owl:sameAs  <https://www.wikidata.org/wiki/Q47231>;
+	owl:sameAs <http://it.dbpedia.org/resource/Ulisse/html>;
+	owl:differentFrom <http://dbpedia.org/page/Ulysses_(novel)>. 

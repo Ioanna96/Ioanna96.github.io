@@ -1,0 +1,20 @@
+
+@prefix rdf: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix crm: <http://cidoc-crm.org/>.
+@prefix nos: <https://nos.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix wn:<http://www.w3.org/2006/03/wn/wn20/schema/>.
+@prefix owl:<http://www.w3.org/2002/07/owl#>.
+
+
+<http://uri.ttl>
+	rdf:type nos:Concept;
+	skos:related "journey";
+	crm:P129_is_subject_of nos:Odyssey, nos:Aeneid;
+	crm:P127_has_narrower_term nos:obstacles;	
+        skos:related "journey";
+        wn:derivationallyRelatedForm <https://www.wikidata.org/wiki/Q1417705>;
+        wn:hyponymOf <http://dbpedia.org/page/Desire>;
+        wn:hypernymOf <https://www.wikidata.org/wiki/Q1595931>;
+        owl:sameAs <http://dbpedia.org/page/Nostos>.
+  
