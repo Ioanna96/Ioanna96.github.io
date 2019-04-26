@@ -7,7 +7,7 @@
 @prefix owl:<http://www.w3.org/2002/07/owl#>.
 
 
-<http://uri.ttl>
+<http://ioanna96.github.io/nostos.ttl>
 	rdf:type nos:Concept;
 	skos:related "journey";
 	crm:P129_is_subject_of nos:Odyssey, nos:Aeneid;
