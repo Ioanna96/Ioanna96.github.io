@@ -8,7 +8,7 @@
 
 
 
-<http://uri.ttl>
+<http://ioanna96.github.io/Odysseus.ttl>
 	rdf:type nos:Legendary_character;
 	schema:birthPlace  nos:Ithaca;
 	schema:nationality  nos:Greek;
